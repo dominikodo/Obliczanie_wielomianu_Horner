@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="pierwszy commit" />
+    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "C:/Users/piese/Desktop/Metody Obliczeniowe/Obliczanie_wielomianu_Horner/Horner",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,6 +61,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679779946956</updated>
       <workItem from="1679779948334" duration="639000" />
+      <workItem from="1679780611334" duration="33000" />
+      <workItem from="1679780691269" duration="134000" />
+      <workItem from="1679780838223" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit">
       <created>1679780404259</created>
@@ -82,6 +90,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="pierwszy commit" />
     <option name="LAST_COMMIT_MESSAGE" value="pierwszy commit" />
   </component>
