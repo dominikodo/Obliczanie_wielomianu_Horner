@@ -5,7 +5,10 @@ class HornerTest {
 
     public static void main(String[] args) {
 
-        System.out.println("test");
+
+        Horner horner = new Horner();
+
+        System.out.println("wynik test: "+ horner.obliczWielomin());
 
     }
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="">
+    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/odo/zadania/mob/Horner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/Horner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <workItem from="1679779948334" duration="639000" />
       <workItem from="1679780611334" duration="33000" />
       <workItem from="1679780691269" duration="134000" />
-      <workItem from="1679780838223" duration="44000" />
+      <workItem from="1679780838223" duration="5361000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit">
       <created>1679780404259</created>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679780404259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1679780908988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679780908988</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +102,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="pierwszy commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="pierwszy commit" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
