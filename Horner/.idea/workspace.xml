@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="test">
+    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="zrobienie działającej metody do obliczania wielomianu">
+      <change afterPath="$PROJECT_DIR$/plik.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/Horner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/Horner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/HornerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/HornerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/odo/zadania/mob/Horner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/Horner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerTest.java" afterDir="false" />
     </list>
@@ -14,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,23 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/piese/Desktop/Metody Obliczeniowe/Obliczanie_wielomianu_Horner/Horner",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/piese/Desktop/Metody Obliczeniowe/Obliczanie_wielomianu_Horner/Horner&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\piese\Desktop\Metody Obliczeniowe\Obliczanie_wielomianu_Horner\Horner" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.odo.zadania.mob" />
@@ -64,7 +71,9 @@
       <workItem from="1679779948334" duration="639000" />
       <workItem from="1679780611334" duration="33000" />
       <workItem from="1679780691269" duration="134000" />
-      <workItem from="1679780838223" duration="5361000" />
+      <workItem from="1679780838223" duration="6050000" />
+      <workItem from="1679855344361" duration="320000" />
+      <workItem from="1679936557866" duration="9879000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit">
       <created>1679780404259</created>
@@ -80,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679780908988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zrobienie działającej metody do obliczania wielomianu">
+      <created>1679787086742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679787086742</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zrobienie działającej metody do obliczania wielomianu">
+      <created>1679787103862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679787103862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +126,7 @@
     </ignored-roots>
     <MESSAGE value="pierwszy commit" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="zrobienie działającej metody do obliczania wielomianu" />
+    <option name="LAST_COMMIT_MESSAGE" value="zrobienie działającej metody do obliczania wielomianu" />
   </component>
 </project>
