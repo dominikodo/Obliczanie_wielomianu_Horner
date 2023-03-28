@@ -7,9 +7,10 @@ class HornerTest {
 
     public static void main(String[] args) {
 
-        HornerGUI hornerGUI = new HornerGUI();
-
         Horner horner = new Horner();
+        HornerGUI hornerGUI = new HornerGUI(horner);
+
+
 
         hornerGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         hornerGUI.setVisible(true);
@@ -17,7 +18,7 @@ class HornerTest {
 
 
 
-        horner.odczytZPliku();
+        //horner.odczytZPliku();
         System.out.println("wynik test: "+ horner.obliczWielomin());
 
     }

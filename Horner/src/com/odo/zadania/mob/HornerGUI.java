@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 public class HornerGUI extends JFrame implements ActionListener {
 
@@ -17,13 +18,14 @@ public class HornerGUI extends JFrame implements ActionListener {
     
     private JTextArea wyswitl = new JTextArea();
 
+    private Horner horner;
 
-    HornerGUI(){
+    HornerGUI(Horner horner){
         setSize(500,500);  //wymiary okna
         setTitle("Horner");//tytul okna
         setLayout(null);
 
-
+        this.horner = horner;
 
         xTekst.setText("Podaj x:");
         tOtworz.setText("Kliknij aby otworzyć plik z liczbami a:");
@@ -53,9 +55,9 @@ public class HornerGUI extends JFrame implements ActionListener {
         add(dodaj);
         add(oblicz);
         
-        bOtworz.addActionListener();
-        dodaj.addActionListener();
-        oblicz.addActionListener();
+        bOtworz.addActionListener(this);
+        dodaj.addActionListener(this);
+        oblicz.addActionListener(this);
 
 
     }
@@ -63,15 +65,19 @@ public class HornerGUI extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         
-        Object sourse = e.getSourse();
+        Object sourse = e.getSource();
         
         if(sourse==dodaj){
             
             
         }
         else if(sourse==bOtworz){
-        
-        
+            JFileChooser fileChooser = new JFileChooser();
+            if (fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION){
+
+                File plik = fileChooser.getSelectedFile();
+                horner.odczytZPliku(plik);
+            }
         }
         else if(sourse==oblicz){
         

@@ -30,16 +30,16 @@ public class Horner {
 
     }
 
-    void odczytZPliku (){
+    void odczytZPliku (File file){
 
-        File file = new File("plik.txt");//tworzenie obiektu file
+        //File file = new File("plik.txt");//tworzenie obiektu file
 
         try {
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNext()) {
                 a.add(Double.parseDouble(scanner.nextLine()));
-                //System.out.println(a);
+                System.out.println(a);
             }
 
         } catch (FileNotFoundException e) {
@@ -55,8 +55,8 @@ public class Horner {
 
         for(int i = a.size(); i>1; i-- ){
 
+            System.out.println("i: "+ i);
             wynik= (wynik * x ) + a.get(i-2);
-            //System.out.println("i: "+ i);
             //System.out.println("wynik: "+ wynik);
 
         }
