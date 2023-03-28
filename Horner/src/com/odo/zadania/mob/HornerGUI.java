@@ -14,6 +14,8 @@ public class HornerGUI extends JFrame implements ActionListener {
     private JLabel xTekst = new JLabel();
     private JLabel tOtworz = new JLabel();
     private JTextField xWpisz= new JTextField();
+    
+    private JTextArea wyswitl = new JTextArea();
 
 
     HornerGUI(){
