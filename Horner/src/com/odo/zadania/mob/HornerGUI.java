@@ -50,12 +50,33 @@ public class HornerGUI extends JFrame implements ActionListener {
         add(bOtworz);
         add(dodaj);
         add(oblicz);
+        
+        bOtworz.addActionListener();
+        dodaj.addActionListener();
+        oblicz.addActionListener();
 
 
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        
+        Object sourse = e.getSourse();
+        
+        if(sourse==dodaj){
+            
+            
+        }
+        else if(sourse==bOtworz){
+        
+        
+        }
+        else if(sourse==oblicz){
+        
+        
+        }
+        
+        
 
     }
 }
