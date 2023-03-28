@@ -64,4 +64,26 @@ public class Horner {
         return wynik;
 
     }
+    void setX(double x){
+    
+        this.x= x; 
+
+    }
+    double getX(){
+    
+        return x;
+        
+    }
+    void addA(double newA){
+    
+        a.add(newA);
+        
+    }
+    
+    ArrayList getA(){
+    
+        return a;
+        
+    }
+    
 }
