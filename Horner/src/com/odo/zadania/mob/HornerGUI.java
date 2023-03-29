@@ -16,7 +16,8 @@ public class HornerGUI extends JFrame implements ActionListener {
     private JLabel tOtworz = new JLabel();
     private JTextField xWpisz= new JTextField();
     
-    private JTextArea wyswitl = new JTextArea();
+    private JTextField wyswietl = new JTextField();
+    //private JTextArea wyswitl = new JTextArea();
 
     private Horner horner;
 
@@ -69,10 +70,11 @@ public class HornerGUI extends JFrame implements ActionListener {
         
         if(sourse==dodaj){
             
+            horner.setX(Double.parseDouble(xWpisz.getText())); 
             
         }
-        else if(sourse==bOtworz){
-            JFileChooser fileChooser = new JFileChooser();
+        else if(sourse==bOtworz){//jeśli nacisnie się przyciesk otworz to otworzy cię okientko do wyboru pliku po wybraniu pliku pobierze z niego dane
+            JFileChooser fileChooser = new JFileChooser(); 
             if (fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION){
 
                 File plik = fileChooser.getSelectedFile();
@@ -81,10 +83,19 @@ public class HornerGUI extends JFrame implements ActionListener {
         }
         else if(sourse==oblicz){
         
-        
+            private ArrayList <Double> array = new ArrayList();
+            array = horner.getA(); 
+            
+            String tekst = new String();
+            
+            for(int i=0; i< array.size(); i++ ){
+                
+                tekst= tekst + array.get(i);
+            }
+                    
+            wyswietl.setText();
+            
+            
         }
-        
-        
-
     }
 }
