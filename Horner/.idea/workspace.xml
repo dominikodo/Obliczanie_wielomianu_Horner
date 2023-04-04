@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="dodanie wyboru pliku" />
+    <list default="true" id="88818a13-f389-4834-88d8-95ec50f02900" name="Changes" comment="Dodanie wersji konsolowej programu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/Horner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/Horner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/HornerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horner/com/odo/zadania/mob/HornerGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/odo/zadania/mob/HornerGUI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/piese/Desktop/Metody Obliczeniowe/Obliczanie_wielomianu_Horner/Horner",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/piese/Desktop/Metody Obliczeniowe/Obliczenie Horner/untitled&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,6 +72,10 @@
       <workItem from="1679855344361" duration="320000" />
       <workItem from="1679936557866" duration="9923000" />
       <workItem from="1680029271987" duration="4042000" />
+      <workItem from="1680035622355" duration="79000" />
+      <workItem from="1680202676188" duration="4736000" />
+      <workItem from="1680279150620" duration="2336000" />
+      <workItem from="1680629701750" duration="203000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commit">
       <created>1679780404259</created>
@@ -110,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680035159436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dodanie wyboru pliku">
+      <created>1680035637108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680035637108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

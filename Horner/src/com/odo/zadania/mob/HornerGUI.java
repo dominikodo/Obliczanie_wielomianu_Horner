@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.util.ArrayList;
 
 public class HornerGUI extends JFrame implements ActionListener {
 
@@ -83,17 +84,19 @@ public class HornerGUI extends JFrame implements ActionListener {
         }
         else if(sourse==oblicz){
         
-            private ArrayList <Double> array = new ArrayList();
-            array = horner.getA(); 
+            ArrayList<Double> array;
+            array = new ArrayList<>();
+
+            array = horner.getA();
             
             String tekst = new String();
             
             for(int i=0; i< array.size(); i++ ){
-                
+
                 tekst= tekst + array.get(i);
             }
                     
-            wyswietl.setText();
+            wyswietl.setText(tekst);
             
             
         }
